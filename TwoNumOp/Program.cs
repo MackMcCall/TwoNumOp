@@ -6,7 +6,17 @@
         private static void Main(string[] args)
         {
             Console.WriteLine("What is the first number you would like to use?");
-            float num1 = Convert.ToInt32(Console.ReadLine());
+            // float num1 = Convert.ToInt32(Console.ReadLine());
+
+            if (int.TryParse(Console.ReadLine(), out var num1))
+{
+                Console.WriteLine($"You entered: {num1}");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Input!");
+            }
+
             Console.WriteLine("What is the second number you would like to use?");
             float num2 = Convert.ToInt32(Console.ReadLine());
 
