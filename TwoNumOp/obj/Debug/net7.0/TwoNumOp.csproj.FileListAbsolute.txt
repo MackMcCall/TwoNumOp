@@ -1,0 +1,15 @@
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\obj\Debug\net7.0\TwoNumOp.csproj.AssemblyReference.cache
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\obj\Debug\net7.0\TwoNumOp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\obj\Debug\net7.0\TwoNumOp.AssemblyInfoInputs.cache
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\obj\Debug\net7.0\TwoNumOp.AssemblyInfo.cs
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\obj\Debug\net7.0\TwoNumOp.csproj.CoreCompileInputs.cache
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\bin\Debug\net7.0\TwoNumOp.exe
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\bin\Debug\net7.0\TwoNumOp.deps.json
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\bin\Debug\net7.0\TwoNumOp.runtimeconfig.json
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\bin\Debug\net7.0\TwoNumOp.dll
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\bin\Debug\net7.0\TwoNumOp.pdb
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\obj\Debug\net7.0\TwoNumOp.dll
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\obj\Debug\net7.0\refint\TwoNumOp.dll
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\obj\Debug\net7.0\TwoNumOp.pdb
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\obj\Debug\net7.0\TwoNumOp.genruntimeconfig.cache
+C:\Users\mackm\OneDrive\Desktop\repos\SIDEPROJ\TwoNumOp\TwoNumOp\obj\Debug\net7.0\ref\TwoNumOp.dll
