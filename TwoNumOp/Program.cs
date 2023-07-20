@@ -3,13 +3,27 @@
     using System;
     internal class Program
     {
+        static void GetNumber()
+        {
+            Console.WriteLine("Enter a number: ");
+            if (double.TryParse(Console.ReadLine(), out var number))
+            {
+                Console.WriteLine($"You entered: {number}");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Input!");
+            }
+        }
+
+
         private static void Main(string[] args)
         {
             Console.WriteLine("What is the first number you would like to use?");
             // float num1 = Convert.ToInt32(Console.ReadLine());
 
-            if (int.TryParse(Console.ReadLine(), out var num1))
-{
+            if (double.TryParse(Console.ReadLine(), out var num1))
+            {
                 Console.WriteLine($"You entered: {num1}");
             }
             else
@@ -18,15 +32,15 @@
             }
 
             Console.WriteLine("What is the second number you would like to use?");
-            float num2 = Convert.ToInt32(Console.ReadLine());
+            float number = GetNumber();
 
-            Console.WriteLine("Which you like to add, subtract, multiply, or divide?");
+            Console.WriteLine("Would you like to add, subtract, multiply, or divide?");
             string operation = (Console.ReadLine());
 
             switch (operation)
             {
                 case ("add" or "addition" or "+"):
-                    Console.WriteLine(num1 + num2);
+                    Console.WriteLine(num1 + number);
                     break;
                 case ("subtract" or "subtraction" or "-"):
                     Console.WriteLine(num1 - num2);
