@@ -12,6 +12,7 @@
             }
             else
             {
+                Console.WriteLine("Invalid Input");
                 return 0;
             }
         }
