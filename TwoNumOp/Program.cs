@@ -13,7 +13,7 @@
             else
             {
                 Console.WriteLine("Invalid Input");
-                return 0;
+                return GetNumber();
             }
         }
 
@@ -44,6 +44,32 @@
                     Console.WriteLine(num1 / num2);
                     break;
             }
+        }
+
+        static bool TryGetOperation(string input, out OperationTypes? type)
+        {
+            type = null;
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                return false;
+            }
+            switch (input)
+            {
+                case ("add" or "addition" or "+"):
+                    type = OperationTypes.Add;
+                    return true;
+                case ("subtract" or "subtraction" or "-"):
+                    type = OperationTypes.Subtract;
+                    return true;
+                case ("multiply" or "multiplication" or "*" or "x"):
+                    type = OperationTypes.Multiply;
+                    return true;
+                case ("divide" or "division" or "/"):
+                    type = OperationTypes.Divide;
+                    return true;
+                default: return false;
+            }
+            //TODO figure this out more and try to incorporate it
         }
     }
 }
