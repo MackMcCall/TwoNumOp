@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace TwoNumOp
 {
-    internal class OperationTypes
+    public enum OperationTypes
     {
+        Add = 1, 
+        Subtract = 2,
+        Multiply = 3,
+        Divide = 4,
     }
 }
