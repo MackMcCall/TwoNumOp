@@ -12,7 +12,7 @@
             }
             else
             {
-                Console.WriteLine("Invalid Input");
+                Console.WriteLine("Invalid Input, Please Type a Number.");
                 return GetNumber();
             }
         }
