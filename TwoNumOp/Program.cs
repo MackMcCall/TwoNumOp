@@ -1,7 +1,7 @@
 ﻿namespace TwoNumOp
 {
     using System;
-    internal class Program
+    public class Program
     {
         static double GetNumber()
         {
@@ -18,7 +18,7 @@
         }
 
 
-        private static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("What is the first number you would like to use?");
             double num1 = GetNumber();
@@ -27,26 +27,32 @@
             double num2 = GetNumber();
 
             Console.WriteLine("Would you like to add, subtract, multiply, or divide?");
-            string operation = (Console.ReadLine());
+            var operation = Console.ReadLine();
 
-            switch (operation)
+            var isvalidinput = TryGetOperation(operation, out var operationType);
+
+            switch (operationType)
             {
-                case ("add" or "addition" or "+"):
+                case OperationTypes.Add:
                     Console.WriteLine(num1 + num2);
                     break;
-                case ("subtract" or "subtraction" or "-"):
+                case OperationTypes.Subtract:
                     Console.WriteLine(num1 - num2);
                     break;
-                case ("multiply" or "multiplication" or "*" or "x"):
+                case OperationTypes.Multiply:
                     Console.WriteLine(num1 * num2);
                     break;
-                case ("divide" or "division" or "/"):
+                case OperationTypes.Divide:
                     Console.WriteLine(num1 / num2);
                     break;
             }
         }
 
-        static bool TryGetOperation(string input, out OperationTypes? type)
+
+        /// <summary>
+        /// Refactor that evaluates input and returns true if input is a valid operation type and puts out that type, puts out null type when input is invalid.
+        /// </summary>
+        public static bool TryGetOperation(string? input, out OperationTypes? type)
         {
             type = null;
             if (string.IsNullOrWhiteSpace(input))
