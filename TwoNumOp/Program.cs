@@ -53,7 +53,7 @@
         /// Refactor that evaluates input and returns true if input is a valid operation type and puts out that type, puts out null type when input is invalid.
         /// </summary>
         public static bool TryGetOperation(string? input, out OperationTypes? type)
-        {
+        { 
             type = null;
             if (string.IsNullOrWhiteSpace(input))
             {
@@ -75,7 +75,7 @@
                     return true;
                 default: return false;
             }
-            //TODO figure this out more and try to incorporate it
+            //TODO implement exponents, more test cases, maybe look into "zero", regex
         }
     }
 }
